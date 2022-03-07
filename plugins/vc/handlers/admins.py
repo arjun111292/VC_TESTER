@@ -4,7 +4,7 @@ from asyncio import QueueEmpty
 
 from plugins.vc.end import callsmusic
 from plugins.vc.que.queues import queues
-from config import BOT_USERNAME, que
+from konfig import BOT_USERNAME, que
 from cache.admins import admins
 from helpers.channelmusic import get_chat_id
 from helpers.dbtools import delcmd_is_on, delcmd_off, delcmd_on, handle_user_status
