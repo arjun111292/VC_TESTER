@@ -26,7 +26,7 @@ OWNER_NAME = getenv("OWNER_NAME", "dlwrml")
 # fill with your nickname
 ALIVE_NAME = getenv("ALIVE_NAME", "Levina")
 # fill with your id as the owner of the bot
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+OWNER_ID = ("1091859969")
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
 # make a private channel and get the channel id
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
